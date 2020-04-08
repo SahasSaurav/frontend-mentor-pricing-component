@@ -1,0 +1,19 @@
+
+p{
+    margin: 1rem 0;
+}
+
+body{
+    background:$n-very-light-grayish-blue;
+    color:$n-grayish-blue;
+    font-family: $font;
+    font-size: 15px;
+    font-weight: 700;
+    height:100vh;
+}
+
+.conatiner{
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pricing component</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <main class="flex col">
+        <div class="conatiner">
+            <div class="info flex col">
+                <h2 class="title">Our Pricing</h2>
+                <div class="toggle-container">
+                    <span>Annually</span>
+                    <span class="toggle">
+                        <label class="switch">
+                            <input type="checkbox" id='toggle-checkbox'>
+                            <span class="slider round"></span>
+                          </label> 
+                    </span>
+                    <span>Monthly</span>
+                </div>
+            </div>
+            <div class="flex row card-container">
+                <div class="card bg-white">
+                    <h3 class="card__desc">Basic</h3>
+                    <p class="l-heading card__pricing" id="basic-price"><span class="s-heading">$</span>199.99</p>
+                    <hr class="line">
+                    <p class="card__storage">500 GB Storage</p>
+                    <hr class="line">
+                    <p class="card__user">2 User Allowed</p>
+                    <hr class="line">
+                    <p class="card__data-packet">Send up to 3 Gb</p>
+                    <hr class="line">
+                    <button class="card__btn btn-purple">Learn More</button>
+                </div>
+                <div class="card bg-purple scale">
+                    <h3 class="card__desc">Professional</h3>
+                    <p class="l-heading card__pricing" id="professional-price"><span class="s-heading">$</span>249.99</p>
+                    <hr class="line">
+                    <p class="card__storage">1 TB Storage</p>
+                    <hr class="line">
+                    <p class="card__user">5 User Allowed</p>
+                    <hr class="line">
+                    <p class="card__data-packet">Send up to 10 Gb</p>
+                    <hr class="line">
+                    <button class="card__btn btn-white">Learn More</button>
+                </div>
+                <div class="card bg-white">
+                    <h3 class="card__desc">Master</h3>
+                    <p class="l-heading card__pricing" id="master-price"><span class="s-heading">$</span>399.99</p>
+                    <hr class="line">
+                    <p class="card__storage">2 TB Storage</p>
+                    <hr class="line">
+                    <p class="card__user">10 User Allowed</p>
+                    <hr class="line">
+                    <p class="card__data-packet">Send up to 20 Gb</p>
+                    <hr class="line">
+                    <button class="card__btn btn-purple">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./js/script.js" defer></script>
+  </body>
+</html>
